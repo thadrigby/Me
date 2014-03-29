@@ -1,0 +1,35 @@
+hgroup {
+	font-size: 30px;
+	
+}
+
+
+
+.name {
+	text-align: center;
+	font-size: 40px;
+}
+
+
+.nav {
+	text-align: right;
+}
+
+.main-body-pic {
+	height: 200px;
+	width: 100%; 
+}
+
+.social-links{
+	float: right;
+	margin: 15px;
+
+}
+.fa{
+	color: rgb(176, 202, 219);
+	height: 30px;
+	width: 30px;
+	padding: 0;
+	margin: 15px;
+
+}

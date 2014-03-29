@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A layout example that shows off a blog page with a list of posts.">
+
+    <title>Thadius O Rigby</title>
+
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.4.2/pure-min.css">
+
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+
+
+
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.4.2/pure.css">
+
+
+
+  
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="css/main-grid-old-ie.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="css/main-grid.css">
+    <!--<![endif]-->
+  
+
+  
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="css/layouts/blog-old-ie.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="css/layouts/blog.css">
+    <!--<![endif]-->
+  
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+
+    
+
+    
+
+    
+
+</head>
+<body>
+
+
+
+
+
+<!--sidebar left-->
+
+<div id="layout" class="pure-g">
+    <div class="sidebar pure-u-1 pure-u-med-1-4">
+        <div class="header">
+            <hgroup>
+                <h1 class="brand-tagline">Thadius</h1>
+                <h1 class="brand-tagline">O</h1>
+                <h1 class="brand-tagline">Rigby</h1>
+            </hgroup>
+
+            
+        </div>
+
+
+        <nav class="nav">
+                <ul>
+                    <li class="social-links">
+                        <a href="https://www.facebook.com/thad.rigby"><i class="fa fa-facebook"></i></a>
+                    </li>
+
+                    <li class="social-links">
+                        
+                        <a href="https://github.com/thadrigby"><i class="fa fa-github"></i></a>
+                    </li>
+
+                    <li class="social-links">
+                        
+                        <a href="https://www.linkedin.com/pub/thadius-rigby/90/536/160"><i class="fa fa-linkedin"></i></a>
+                    </li>
+                </ul>
+        </nav>
+
+
+    </div>
+
+
+
+<!--main body -->
+
+
+
+    <div class="content pure-u-1 pure-u-md-3-4">
+        <div>
+            <!-- A wrapper for all the blog posts -->
+            <div class="name">
+                <h1 class="content-subhead">Learning - Educating - Creating</h1>
+
+                
+            </div>
+
+            <div class="picture">
+                <img src="">
+            </div>
+
+
+                
+        </div>
+
+        <section class="post">
+            <header class="post-header">
+                
+
+                
+            </header>
+
+        </section>
+
+        
+
+    </div>
+
+
+
+    
+     
+</div>
+
+<script src="http://yui.yahooapis.com/3.14.1/build/yui/yui.js"></script>
+<script>
+YUI().use('node-base', 'node-event-delegate', function (Y) {
+    // This just makes sure that the href="#" attached to the <a> elements
+    // don't scroll you back up the page.
+    Y.one('body').delegate('click', function (e) {
+        e.preventDefault();
+    }, 'a[href="#"]');
+});
+</script>
+
+
+
+
+
+</body>
+</html>
