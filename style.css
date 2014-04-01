@@ -21,15 +21,48 @@ hgroup {
 }
 
 .social-links{
+	color: rgb(176, 202, 219);
+	border: solid 2px;
 	float: right;
-	margin: 15px;
+	margin: 30px;
+	width: 30px;
+	height: 30px;
+	padding: 0px;
+
 
 }
-.fa{
+.fa {
 	color: rgb(176, 202, 219);
-	height: 30px;
-	width: 30px;
-	padding: 0;
-	margin: 15px;
+	height: 100px;
+	width: 100px;
+	margin: 0px;
+	padding: 0px;
+	border: solid 2px red;
+}
 
+.picture {
+	float: right;
+}
+
+.post {
+	vertical-align: baseline;
+}
+
+.post-header {
+	
+
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 900px;
+	height: 470px;
+}
+
+.self-description {
+	text-align: center;
+	vertical-align: bottom;
+	font-size: 25px;
+	font-family: sans-serif;
+	color: black;
+	
 }
