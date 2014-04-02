@@ -1,68 +1,69 @@
 hgroup {
 	font-size: 30px;
-	
 }
 
 
+/* side bar left */
 
+.i-am {
+	text-align: left;
+}
+
+
+/* main body */
+
+.content-subhead {
+	text-align: center;
+	font-size: 30px;
+}
+
+.post-header {
+	/*border: solid red 2px;*/
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 900px;
+	height: 290px;
+}
+
+.self-description {
+	text-align: left;
+	/*vertical-align: bottom;*/
+	font-size: 25px;
+	font-family: sans-serif;
+	color: black;
+}
+
+
+/* footer */
+
+.footer {
+	width: 900px;
+	float: ;
+}
 .name {
 	text-align: center;
 	font-size: 40px;
 }
 
-
-.nav {
-	text-align: right;
-}
-
-.main-body-pic {
-	height: 200px;
-	width: 100%; 
-}
-
 .social-links{
 	color: rgb(176, 202, 219);
-
-	float: right;
-	margin: 30px;
+	/*float: left;*/
+	text-align: right;
+	margin: 15px;
 	width: 30px;
 	height: 30px;
 	padding: 0px;
-
-
 }
+
 .fa {
 	color: rgb(176, 202, 219);
-	height: 30px;
-	width: 30px;
+	height: 50px;
+	width: 50px;
 	margin: 0px;
 	padding: 0px;
-
 }
 
-.picture {
-	float: right;
-}
-
-.post {
-	vertical-align: baseline;
-}
-
-.post-header {
-	
-
-	float: left;
-	margin: 0px;
-	padding: 0px;
-	width: 900px;
-	height: 470px;
-}
-
-.self-description {
-	text-align: center;
-	vertical-align: bottom;
-	font-size: 25px;
-	font-family: sans-serif;
-	color: black;
-	
+.footer {
+	border: solid red 2px;
 }
